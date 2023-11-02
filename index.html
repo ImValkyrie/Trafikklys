@@ -10,6 +10,7 @@
 <body>
 
 <style>
+
     .circle {
         width: 200px;
         height: 200px;
@@ -29,7 +30,9 @@
     }
     .active { 
         border: 4px solid black;
-        opacity: 100%; }
+        opacity: 100%; 
+    }
+
 </style>
 
 </head>
@@ -42,7 +45,7 @@
 
 
     <button onclick="lightTiming()">Start trafficlight timer</button>
-    
+
     <button onclick="activateLight('greenLight', 'orangeLight', 'redLight', 'redLight')">Red</button>
     <button onclick="activateLight('greenLight', 'greenLight', 'redLight', 'orangeLight')">Red and Orange</button>
     <button onclick="activateLight('greenLight', 'redLight', 'orangeLight', 'orangeLight')">Orange</button>
